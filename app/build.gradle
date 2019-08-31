@@ -1,0 +1,21 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_7
+        targetCompatibility = JavaVersion.VERSION_1_7
+    }
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        minSdkVersion 28
+        targetSdkVersion 29
+    }
+    buildTypes.all {
+        consumerProguardFiles 'proguard-rules.pro'
+    }
+}
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-beta03'
+}
