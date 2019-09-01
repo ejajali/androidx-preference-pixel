@@ -188,4 +188,5 @@
         <item name="android:textAppearance">?attr/preferenceCategoryTitleTextAppearance</item>
         <item name="android:textColor">@color/preference_fallback_accent_color</item>
     </style>
+    <style name="CustomDialogTheme" parent="@*android:style/Theme.DeviceDefault.Light.Dialog"/>
 </resources>

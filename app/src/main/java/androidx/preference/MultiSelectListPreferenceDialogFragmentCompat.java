@@ -20,7 +20,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
+import android.app.AlertDialog;
 
 import java.util.ArrayList;
 import java.util.HashSet;
